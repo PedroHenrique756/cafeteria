@@ -4,28 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>café coffe</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-
-        <header class="header">
-            <section>
+    <header class="header">
+        <section>
             <a href="#" class="logo">
                 <img src="img/logo.png" alt="logo">
             </a>
-        
+
             <nav class="navbar">
                 <a href="#">Home</a>
                 <a href="#about">Sobre</a>
                 <a href="#menu">Menu</a>
-                <a href="#review">Avaliações</a>
-                <a href="#addres">Endereço</a>
+                <a href="#review">Avalizações</a>
+                <a href="#address">Endereço</a>
             </nav>
-            <div class="icons">
-                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/>
-                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+
+            <div class="icon" aria-label="icones">
+                <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
+                    alt="search--v1" />
+                <img width="30" height="30" src="https://img.icons8.com/ios/50/ffffff/shopping-cart--v1.png"
+                    alt="shopping-cart--v1" />
             </div>
-    </section>
+        </section>
+
     </header>
+
+    <div class="home-container">
+        <section id="#home">
+            <div class="content">
+                <h3>CODE COM O MELHOR CAFÉ DA REGIÃO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolor quas ab consequuntur id,
+                    quae libero nobis voluptas facilis voluptates, dolorum mollitia voluptate quis. Iste labore
+                    laboriosam laudantium. Distinctio, eos.</p>
+                <a href="#" class="btn">Pegue o seu Agora</a>
+            </div>
+        </section>
+    </div>
+
+    <section class="about" id="about">
+        <h2 class="title">SOBRE <span>NÓS</span></h2>
+        <div class="row">
+            <div>
+                <img src="img/1.jpg" alt="sobre-nos">
+            </div>
+
+            <div class="content">
+                <h3>O que Faz Nosso Café Especial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis recusandae, ipsam accusantium
+                    sequi, quas magni voluptatum doloribus, odio praesentium voluptatem hic. Iste laudantium
+                    consequatur, id hic voluptatum est quidem dolor!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam, rem iure molestiae beatae
+                    sequi suscipit ipsum. Explicabo quisquam laborum assumenda possimus porro ea debitis. Nam minus sint
+                    ut pariatur!</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h2 class="title">NOSSO <span>MENU</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/menu-1.png" alt="item-1">
+                <h3>Café Coado</h3>
+                <div class="price">R$ 15,99<span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu-2.png" alt="item-2">
+                <h3>Café Coado</h3>
+                <div class="price">R$ 10,00<span>R$ 11,50</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu-3.png" alt="item-3">
+                <h3>Café Coado</h3>
+                <div class="price">R$ 12,50<span>R$ 13,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu-4.png" alt="item-4">
+                <h3>Café Coado</h3>
+                <div class="price">R$ 14,99<span>R$ 16,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu-5.png" alt="item-5">
+                <h3>Café Coado</h3>
+                <div class="price">R$ 14,80<span>R$ 19,50</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu-6.png" alt="item-6">
+                <h3>Café Coado</h3>
+                <div class="price">R$ 11,20<span>R$ 15,30</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h2>NOSSOS <span>CLIENTES</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/quote-img.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quasi! Delectus quod ratione
+                    dolore perferendis illum rem itaque atque omnis impedit quo facere molestiae explicabo in autem
+                    natus, laborum nostrum.</p>
+                <img src="img/pic-1.png" alt="foto-cliente" class="user">
+                <h3>João da Silva</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/quote-img.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quasi! Delectus quod ratione
+                    dolore perferendis illum rem itaque atque omnis impedit quo facere molestiae explicabo in autem
+                    natus, laborum nostrum.</p>
+                <img src="img/pic-2.png" alt="foto-cliente" class="user">
+                <h3>Maria da Galileia</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/quote-img.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quasi! Delectus quod ratione
+                    dolore perferendis illum rem itaque atque omnis impedit quo facere molestiae explicabo in autem
+                    natus, laborum nostrum.</p>
+                <img src="img/pic-3.png" alt="foto-cliente" class="user">
+                <h3>Zé do Gás</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star--v1" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address" id="address">
+        <h2 class="title">NOSSO <span>ENDEREÇO</span></h2>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29421.967655259446!2d-50.091640056938914!3d-22.81187538209464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eaabc463c0a8ed%3A0x8dd04509d7edd186!2sIbirarema%2C%20State%20of%20S%C3%A3o%20Paulo%2C%2019940-000!5e0!3m2!1sen!2sbr!4v1738117885843!5m2!1sen!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="footer">
+        <div class="share">
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new--v1.png"
+                alt="instagram-new--v1" />
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png"
+                alt="facebook-new" />
+        </div>
+    </section>
 </body>
+
 </html>

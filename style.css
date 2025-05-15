@@ -18,3 +18,8 @@
     text-transform: capitalize; 
     transition: 0.2s;
 }
+
+body {
+    background-color: var(--bg);
+}
+}

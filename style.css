@@ -37,3 +37,11 @@ section {
     z-index: 99;
     border-bottom: var(--border);
 }
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}

@@ -1,7 +1,5 @@
 # ☕ Cofé Coffe - Página de Cafeteria
 
-![Imagem do projeto finalizado](img/deploy.png)
-
 🔗 **Confira o projeto aqui:**  
 [Café Coffe](https://pedrohenrique756.github.io/cafeteria/)
 
